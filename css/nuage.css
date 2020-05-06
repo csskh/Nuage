@@ -208,10 +208,29 @@ input[type="submit"]:hover {
 	opacity: 1;
 }
 
-#barcode1{
-	width: 25%;
+.aboutus{
+  padding: 4% 0% 0% 4%;
+  background-color: whitesmoke;
+  position: relative;
 }
 
-#barcode2{
-	width: 25%;
+#barcode1{
+	width: 40%;
+  position: relative;
 }
+
+.txt{
+    display: inline-block;
+    position: relative;
+    right: 0%;
+    left: 18%;
+    bottom: 309px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-right: 40%;
+    color: white;
+}
+
+
+
+
+
