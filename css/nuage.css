@@ -1,3 +1,5 @@
+   /*menu bar*/
+
 #mujer{
 	font-size: xx-large;
 	border-right: 1px solid gray;
@@ -42,7 +44,7 @@ ul {
     padding-left: 0px;
 }
 
-
+   /*search loop*/
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700);
 @import url(https://raw.github.com/FortAwesome/Font-Awesome/master/docs/assets/css/font-awesome.min.css);
 
@@ -101,7 +103,7 @@ input[type="submit"] {
   text-indent: -10000px;
   border: none;
   position: absolute;
-  top: 0;
+  top: -6px;
   right: 0;
   z-index: 2;
   cursor: pointer;
@@ -113,6 +115,8 @@ input[type="submit"] {
 input[type="submit"]:hover {
   opacity: 0.8;
 }
+
+  /*seccion hombres*/
 
 .seccionhombres{
 	background-color: darkgray;
@@ -141,16 +145,35 @@ input[type="submit"]:hover {
 .contenth{
 	display: inline-block;
     position: relative;
-    left: 30%;
-    bottom: 200px;
+    left: 25%;
+    bottom: 300px;
+    font-size: xx-large;
+}
+
+.buttonh{
+    width: 200px;
+    height: 50px;
+    background-color: darkgray;
+    border-color: lightgrey;
+    font-family: 'Quicksand', sans-serif;
+    font-size: x-large;
+    position: relative;
+    left: 25%;
+}
+
+.buttonh:hover{
+  background-color: lightgrey;
 }
 
 .contenth p{
 	font-family: 'Montserrat', sans-serif;
 }
 
+  /*seccion mujeres*/
+
 .seccionmujeres{
 	padding: 3%;
+  background-color: whitesmoke;
 }
 
 #imgrejas{
@@ -163,12 +186,30 @@ input[type="submit"]:hover {
 	display: inline-block;
     position: relative;
     right: 30%;
-    bottom: 200px;
+    bottom: 295px;
 }
 
 .contentm p{
 	font-family: 'Montserrat', sans-serif;
+  font-size: xx-large;
 }
+
+.buttonm{
+    width: 200px;
+    height: 50px;
+    background-color: whitesmoke;
+    border-color: silver;
+    font-family: 'Quicksand', sans-serif;
+    font-size: x-large; 
+    position: relative;
+    left: 25%;
+}
+
+.buttonm:hover{
+  background-color: silver;
+}
+
+  /*seccion descuentos*/
 
 .descuentos{
 	position: relative;
@@ -198,6 +239,8 @@ input[type="submit"]:hover {
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	text-align: center;
+  font-size: xx-large;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .imgdescuentos:hover #descuent{
@@ -207,6 +250,21 @@ input[type="submit"]:hover {
 .imgdescuentos:hover .textdescuentos{
 	opacity: 1;
 }
+
+.buttond{
+    width: 200px;
+    height: 50px;
+    background-color: lightgray;
+    border-color: gray;
+    font-family: 'Quicksand', sans-serif;
+    font-size: x-large;
+}
+
+.buttond:hover{
+  background-color: gray;
+}
+
+  /*quienes somos?*/
 
 .aboutus{
   padding: 4% 0% 0% 4%;
@@ -230,7 +288,28 @@ input[type="submit"]:hover {
     color: white;
 }
 
+  /*contactenos*/
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
 
+.row {
+  display: flex;
+  text-align: center;
+}
 
+.column {
+  flex: 33.33%;
+  padding: 1%;
+}
+
+footer{
+  text-align: center;
+}
 
