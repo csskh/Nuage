@@ -1,3 +1,5 @@
+  /*main things*/
+
    /*menu bar*/
 
 #mujer{
@@ -286,17 +288,26 @@ input[type="submit"]:hover {
     background: rgba(0, 0, 0, 0.5);
     margin-right: 40%;
     color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.txt p{
+  font-family: 'Quicksand', sans-serif;
 }
 
   /*contactenos*/
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
+.info{
+  background-color: gray;
+}
+
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
 }
 
 .row {
@@ -307,6 +318,13 @@ input[type="submit"]:hover {
 .column {
   flex: 33.33%;
   padding: 1%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#logo2{
+  width: 45%;
+  height: 45%;
+
 }
 
 footer{
