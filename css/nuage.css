@@ -2,10 +2,21 @@
 
    /*menu bar*/
 
+#hombre{
+  font-size: xx-large;
+  border-right: 1px solid gray;
+  padding-right: 4px;
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+#hombre:hover {
+  font-weight: 700;
+}
+
 #mujer{
 	font-size: xx-large;
-	border-right: 1px solid gray;
-	padding-right: 4px; 
 	font-family: 'Quicksand', sans-serif;
 	color: black;
 	text-decoration: none;
@@ -15,23 +26,13 @@
 	font-weight: 700;
 }
 
-#hombre{
-	font-size: xx-large;
-	font-family: 'Quicksand', sans-serif;
-	color: black;
-	text-decoration: none;
-}
-
-#hombre:hover {
-	font-weight: 700;
-}
 
 #logo{
 	width: 120px;
     height: 50px;
     display: inline-block;
-    position: relative;
-    left: 30%;
+    position: absolute;
+    left: 50%;
     top: 10px;
 }
 
@@ -301,13 +302,23 @@ input[type="submit"]:hover {
   background-color: gray;
 }
 
+.contac a{
+  color: white;
+  text-decoration: none;
+}
+
+.contac a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
 .fa{
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
 }
 
 .row {
